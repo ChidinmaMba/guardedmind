@@ -21,15 +21,15 @@ export default function Approach() {
         <div className="approach__grid">
           <div className="approach__content">
             <p>
-              My approach to care emphasizes <strong>prevention</strong>,{' '}
-              <strong>empowerment</strong>, and <strong>collaboration</strong>. I utilize
+              Our approach to care emphasizes <strong>prevention</strong>,{' '}
+              <strong>empowerment</strong>, and <strong>collaboration</strong>. We utilize
               Supportive Therapy, Motivational Interviewing (MI), and Psychoeducation to
               help clients explore their experiences, understand their emotions, and
               develop healthy coping strategies.
             </p>
             <p>
               Treatment is personalized to your unique needs and may include medication
-              management, therapy, or a combination of both. My goal is to help you not
+              management, therapy, or a combination of both. Our goal is to help you not
               only manage symptoms but also build insight and tools for long-term wellbeing.
             </p>
           </div>
