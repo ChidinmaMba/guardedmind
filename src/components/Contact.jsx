@@ -37,12 +37,12 @@ export default function Contact() {
               balance, resilience, and lasting emotional wellness.
             </p>
             <a
-              href="https://www.psychologytoday.com/"
+              href="https://chikaodi-mba.clientsecure.me/contact-widget"
               className="btn btn-primary contact__btn"
               target="_blank"
               rel="noopener noreferrer"
             >
-              View Psychology Today Profile
+              Send a Message
             </a>
           </div>
         </div>
