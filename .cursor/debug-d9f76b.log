@@ -1,0 +1,4 @@
+{"sessionId":"d9f76b","runId":"pre-fix","hypothesisId":"A","location":"scripts/start.mjs","message":"start script invoked","data":{"port":10000,"portEnv":"10000","distExists":true,"npmLifecycle":"start","cwd":"/Users/cmba/Projects/guardedmind","nodeEnv":null},"timestamp":1782957566822}
+{"sessionId":"d9f76b","runId":"pre-fix","hypothesisId":"B","location":"scripts/start.mjs","message":"spawning vite preview","data":{"bindHost":"0.0.0.0","bindPort":10000},"timestamp":1782957566835}
+{"sessionId":"d9f76b","runId":"pre-fix","hypothesisId":"B","location":"scripts/start.mjs","message":"vite preview listening","data":{"output":"➜  Local:   http://localhost:10000/"},"timestamp":1782957567281}
+{"sessionId":"d9f76b","runId":"pre-fix","hypothesisId":"B","location":"scripts/start.mjs","message":"vite preview listening","data":{"output":"➜  Network: http://192.168.12.170:10000/"},"timestamp":1782957567282}
