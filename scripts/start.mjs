@@ -61,6 +61,9 @@ child.stdout.on('data', (chunk) => {
   if (text.includes('Local:') || text.includes('Network:')) {
     debugLog('B', 'vite preview listening', { output: text.trim() })
   }
+  if (text.includes('Blocked request')) {
+    debugLog('F', 'host blocked by vite preview', { output: text.trim() })
+  }
 })
 
 child.stderr.on('data', (chunk) => {
