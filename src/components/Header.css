@@ -11,7 +11,7 @@
 .header--scrolled {
   background: rgba(245, 240, 232, 0.92);
   backdrop-filter: blur(12px);
-  box-shadow: 0 1px 0 rgba(45, 74, 62, 0.08);
+  box-shadow: 0 1px 0 rgba(var(--color-sage-rgb), 0.12);
 }
 
 .header__inner {
@@ -27,10 +27,12 @@
   gap: 0.625rem;
 }
 
-.header__logo-mark {
-  font-size: 1.5rem;
-  color: var(--color-warm);
-  line-height: 1;
+.header__logo-img {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  border-radius: 8px;
+  flex-shrink: 0;
 }
 
 .header__logo-text {
@@ -39,7 +41,7 @@
   font-family: var(--font-serif);
   font-size: 1.25rem;
   font-weight: 600;
-  color: var(--color-sage);
+  color: var(--color-sage-dark);
   line-height: 1.15;
 }
 
@@ -95,7 +97,7 @@
 .header__toggle span {
   display: block;
   height: 2px;
-  background: var(--color-sage);
+  background: var(--color-sage-dark);
   border-radius: 2px;
   transition: transform 0.3s, opacity 0.3s;
 }

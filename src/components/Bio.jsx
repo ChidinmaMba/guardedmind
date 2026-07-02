@@ -4,6 +4,7 @@ import {
   CLINICIAN_CREDENTIALS,
   CLINICIAN_NAME_WITH_CREDENTIALS,
 } from '../constants/clinician'
+import PsychologyTodaySeal from './PsychologyTodaySeal'
 
 export default function Bio() {
   return (
@@ -23,6 +24,7 @@ export default function Bio() {
               <p className="bio__title">{CLINICIAN_CREDENTIALS}</p>
               <p className="bio__subtitle">Board-Certified Psychiatric Mental Health Nurse Practitioner</p>
             </div>
+            <PsychologyTodaySeal />
           </div>
 
           <div className="bio__content">

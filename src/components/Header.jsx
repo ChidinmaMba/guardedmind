@@ -18,7 +18,11 @@ export default function Header({ scrolled }) {
     <header className={`header ${scrolled ? 'header--scrolled' : ''}`}>
       <div className="header__inner container">
         <a href="#" className="header__logo" onClick={closeMenu}>
-          <span className="header__logo-mark" aria-hidden="true">◈</span>
+          <img
+            src="/images/gmwcicon.jpeg"
+            alt="Guarded Mind Wellness Center"
+            className="header__logo-img"
+          />
           <span className="header__logo-text">
             Guarded Mind
             <small>Wellness Center</small>

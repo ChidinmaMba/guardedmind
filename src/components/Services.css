@@ -17,7 +17,7 @@
   padding: 2rem;
   background: var(--color-cream);
   border-radius: var(--radius-lg);
-  border: 1px solid rgba(45, 74, 62, 0.06);
+  border: 1px solid rgba(var(--color-sage-rgb), 0.06);
   transition: transform 0.25s, box-shadow 0.25s;
 }
 
@@ -52,7 +52,7 @@
 
 .services__specialties {
   padding: 2rem 2.5rem;
-  background: linear-gradient(135deg, var(--color-sage) 0%, var(--color-sage-light) 100%);
+  background: linear-gradient(135deg, var(--color-sage-dark) 0%, var(--color-sage) 100%);
   border-radius: var(--radius-lg);
   color: var(--color-white);
 }

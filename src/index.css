@@ -1,7 +1,9 @@
 :root {
-  --color-sage: #2d4a3e;
-  --color-sage-light: #3d6354;
-  --color-sage-muted: #5a7a6a;
+  --color-sage: #79b5d6;
+  --color-sage-light: #96c5e2;
+  --color-sage-muted: #6da3c4;
+  --color-sage-dark: #4a87a8;
+  --color-sage-rgb: 121, 181, 214;
   --color-cream: #f5f0e8;
   --color-cream-dark: #ebe4d8;
   --color-warm: #c4a882;
@@ -11,8 +13,8 @@
   --color-white: #ffffff;
   --font-serif: 'Cormorant Garamond', Georgia, serif;
   --font-sans: 'Source Sans 3', system-ui, sans-serif;
-  --shadow-soft: 0 4px 24px rgba(45, 74, 62, 0.08);
-  --shadow-card: 0 8px 32px rgba(45, 74, 62, 0.1);
+  --shadow-soft: 0 4px 24px rgba(var(--color-sage-rgb), 0.12);
+  --shadow-card: 0 8px 32px rgba(var(--color-sage-rgb), 0.15);
   --radius: 12px;
   --radius-lg: 20px;
   --max-width: 1120px;
@@ -58,7 +60,7 @@ h1, h2, h3, h4 {
   font-family: var(--font-serif);
   font-weight: 500;
   line-height: 1.25;
-  color: var(--color-sage);
+  color: var(--color-sage-dark);
 }
 
 .container {
@@ -114,22 +116,22 @@ h1, h2, h3, h4 {
 .btn-primary {
   background: var(--color-sage);
   color: var(--color-white);
-  box-shadow: 0 4px 16px rgba(45, 74, 62, 0.25);
+  box-shadow: 0 4px 16px rgba(var(--color-sage-rgb), 0.35);
 }
 
 .btn-primary:hover {
   background: var(--color-sage-light);
-  box-shadow: 0 6px 20px rgba(45, 74, 62, 0.3);
+  box-shadow: 0 6px 20px rgba(var(--color-sage-rgb), 0.4);
 }
 
 .btn-secondary {
   background: transparent;
-  color: var(--color-sage);
+  color: var(--color-sage-dark);
   border: 1.5px solid var(--color-sage);
 }
 
 .btn-secondary:hover {
-  background: rgba(45, 74, 62, 0.06);
+  background: rgba(var(--color-sage-rgb), 0.1);
 }
 
 @media (max-width: 768px) {
