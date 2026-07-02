@@ -23,6 +23,7 @@ const specialties = [
   'Depression',
   'Trauma / PTSD',
   'ADHD',
+  'Bipolar Disorder',
   'Life Transitions',
   'Stress Management',
 ]
@@ -49,7 +50,7 @@ export default function Services() {
         </div>
 
         <div className="services__specialties">
-          <h3>Areas of Focus</h3>
+          <h3>What we Treat</h3>
           <ul className="services__tags">
             {specialties.map((item) => (
               <li key={item}>{item}</li>

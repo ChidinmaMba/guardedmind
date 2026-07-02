@@ -7,6 +7,7 @@ import Approach from './components/Approach'
 import Expect from './components/Expect'
 import WhyChoose from './components/WhyChoose'
 import Bio from './components/Bio'
+import Insurance from './components/Insurance'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import './App.css'
@@ -31,6 +32,7 @@ function App() {
         <Expect />
         <WhyChoose />
         <Bio />
+        <Insurance />
         <Contact />
       </main>
       <Footer />

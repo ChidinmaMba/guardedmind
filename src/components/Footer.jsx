@@ -29,6 +29,7 @@ export default function Footer() {
           <a href="#about">About</a>
           <a href="#approach">Approach</a>
           <a href="#bio">Clinician</a>
+          <a href="#insurance">Insurance</a>
           <a href="#contact">Contact</a>
         </nav>
 
