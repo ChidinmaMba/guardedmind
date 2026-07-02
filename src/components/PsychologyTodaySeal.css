@@ -1,0 +1,25 @@
+.pt-seal {
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(var(--color-sage-rgb), 0.1);
+  text-align: center;
+}
+
+.pt-seal__label {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+
+.pt-seal .sx-verified-seal {
+  display: inline-block;
+  min-height: 48px;
+}
+
+@media (max-width: 900px) {
+  .pt-seal {
+    grid-column: 1 / -1;
+    text-align: center;
+  }
+}
