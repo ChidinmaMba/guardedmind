@@ -1,4 +1,9 @@
 import './Bio.css'
+import {
+  CLINICIAN_NAME,
+  CLINICIAN_CREDENTIALS,
+  CLINICIAN_NAME_WITH_CREDENTIALS,
+} from '../constants/clinician'
 
 export default function Bio() {
   return (
@@ -6,12 +11,16 @@ export default function Bio() {
       <div className="container">
         <div className="bio__card">
           <div className="bio__visual">
-            <div className="bio__avatar" aria-hidden="true">
-              <span>PMHNP</span>
+            <div className="bio__avatar">
+              <img
+                src="/images/mom.jpg"
+                alt={CLINICIAN_NAME_WITH_CREDENTIALS}
+                className="bio__avatar-img"
+              />
             </div>
             <div className="bio__credentials">
-              <p className="bio__name">[Your Name]</p>
-              <p className="bio__title">PMHNP-BC</p>
+              <p className="bio__name">{CLINICIAN_NAME}</p>
+              <p className="bio__title">{CLINICIAN_CREDENTIALS}</p>
               <p className="bio__subtitle">Board-Certified Psychiatric Mental Health Nurse Practitioner</p>
             </div>
           </div>
@@ -22,7 +31,7 @@ export default function Bio() {
 
             <div className="bio__text">
               <p>
-                I am a Board-Certified Psychiatric Mental Health Nurse Practitioner (PMHNP-BC)
+                I am a Board-Certified Psychiatric Mental Health Nurse Practitioner ({CLINICIAN_CREDENTIALS})
                 with over 16 years of nursing experience across education, neurology/medical-surgical
                 care, and public health. My professional journey has given me a deep understanding
                 of how physical, emotional, and social health intertwine. I am passionate about
@@ -49,8 +58,8 @@ export default function Bio() {
                 <span className="bio__stat-label">Years of Nursing Experience</span>
               </div>
               <div className="bio__stat">
-                <span className="bio__stat-value">PMHNP-BC</span>
-                <span className="bio__stat-label">Board Certified</span>
+                <span className="bio__stat-value bio__stat-value--credentials">{CLINICIAN_CREDENTIALS}</span>
+                <span className="bio__stat-label">Credentials</span>
               </div>
               <div className="bio__stat">
                 <span className="bio__stat-value">All Ages</span>

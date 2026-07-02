@@ -1,4 +1,5 @@
 import './Hero.css'
+import { CLINICIAN_CREDENTIALS } from '../constants/clinician'
 
 export default function Hero() {
   return (
@@ -37,7 +38,7 @@ export default function Hero() {
           </div>
           <div className="hero__meta-item">
             <dt>Credentials</dt>
-            <dd>PMHNP-BC</dd>
+            <dd>{CLINICIAN_CREDENTIALS}</dd>
           </div>
         </dl>
       </div>
