@@ -26,6 +26,23 @@
   max-width: 360px;
 }
 
+.footer__contact {
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  font-style: normal;
+  line-height: 1.6;
+  color: rgba(245, 240, 232, 0.85);
+}
+
+.footer__contact a {
+  color: rgba(245, 240, 232, 0.95);
+  transition: color 0.2s;
+}
+
+.footer__contact a:hover {
+  color: var(--color-white);
+}
+
 .footer__nav {
   display: flex;
   flex-wrap: wrap;

@@ -1,4 +1,10 @@
 import './Contact.css'
+import {
+  BUSINESS_ADDRESS_LINE1,
+  BUSINESS_ADDRESS_LINE2,
+  BUSINESS_PHONE,
+  BUSINESS_PHONE_DISPLAY,
+} from '../constants/business'
 
 export default function Contact() {
   return (
@@ -16,8 +22,18 @@ export default function Contact() {
 
             <div className="contact__details">
               <div className="contact__detail">
-                <span className="contact__detail-label">Location</span>
-                <span>Sykesville / Westminster, Maryland</span>
+                <span className="contact__detail-label">Address</span>
+                <address className="contact__address">
+                  {BUSINESS_ADDRESS_LINE1}
+                  <br />
+                  {BUSINESS_ADDRESS_LINE2}
+                </address>
+              </div>
+              <div className="contact__detail">
+                <span className="contact__detail-label">Phone</span>
+                <a href={`tel:${BUSINESS_PHONE}`} className="contact__link">
+                  {BUSINESS_PHONE_DISPLAY}
+                </a>
               </div>
               <div className="contact__detail">
                 <span className="contact__detail-label">Session Options</span>
