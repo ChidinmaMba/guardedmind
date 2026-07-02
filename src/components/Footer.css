@@ -1,0 +1,53 @@
+.footer {
+  padding: 3rem 0 2rem;
+  background: var(--color-sage);
+  color: rgba(245, 240, 232, 0.75);
+}
+
+.footer__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+}
+
+.footer__logo {
+  display: block;
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-white);
+  margin-bottom: 0.5rem;
+}
+
+.footer__brand p {
+  font-size: 0.875rem;
+  max-width: 360px;
+}
+
+.footer__nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.footer__nav a {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: rgba(245, 240, 232, 0.7);
+  transition: color 0.2s;
+}
+
+.footer__nav a:hover {
+  color: var(--color-white);
+}
+
+.footer__copy {
+  font-size: 0.8125rem;
+  color: rgba(245, 240, 232, 0.5);
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  width: 100%;
+}

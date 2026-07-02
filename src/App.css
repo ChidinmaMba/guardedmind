@@ -1,0 +1,10 @@
+.app-bg-pattern {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+  opacity: 0.4;
+  background-image:
+    radial-gradient(circle at 20% 20%, rgba(196, 168, 130, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(45, 74, 62, 0.08) 0%, transparent 50%);
+}
