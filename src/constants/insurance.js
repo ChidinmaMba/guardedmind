@@ -20,6 +20,11 @@ export const ACCEPTED_INSURANCES = [
     alt: 'United Healthcare logo',
   },
   {
+    name: 'Medicaid',
+    logo: '/images/insurance/medicaid.svg',
+    alt: 'Medicaid logo',
+  },
+  {
     name: 'Private Pay (Zelle)',
     logo: '/images/insurance/zelle.svg',
     alt: 'Private Pay via Zelle',
